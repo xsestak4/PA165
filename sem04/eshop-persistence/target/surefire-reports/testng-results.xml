@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cz.fi.muni.pa165.tasks.Task01" duration-ms="2610" started-at="2017-10-11T06:48:57Z" finished-at="2017-10-11T06:49:00Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="2610" started-at="2017-10-11T06:48:57Z" finished-at="2017-10-11T06:49:00Z">
+      <class name="cz.fi.muni.pa165.tasks.Task01">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:cz.fi.muni.pa165.tasks.Task01@4f063c0a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="5" started-at="2017-10-11T08:48:57Z" finished-at="2017-10-11T08:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:cz.fi.muni.pa165.tasks.Task01@4f063c0a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2526" started-at="2017-10-11T08:48:57Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-10-11T08:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.fi.muni.pa165.tasks.Task01@4f063c0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-11T08:49:00Z" finished-at="2017-10-11T08:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.fi.muni.pa165.tasks.Task01.categoryTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="categoryTest()[pri:0, instance:cz.fi.muni.pa165.tasks.Task01@4f063c0a]" name="categoryTest" duration-ms="72" started-at="2017-10-11T08:49:00Z" finished-at="2017-10-11T08:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoryTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.fi.muni.pa165.tasks.Task01@4f063c0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-11T08:49:00Z" finished-at="2017-10-11T08:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.fi.muni.pa165.tasks.Task01.categoryTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:cz.fi.muni.pa165.tasks.Task01@4f063c0a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-10-11T08:49:00Z" finished-at="2017-10-11T08:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- cz.fi.muni.pa165.tasks.Task01 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- cz.fi.muni.pa165.tasks.Task01 -->
+</testng-results>
